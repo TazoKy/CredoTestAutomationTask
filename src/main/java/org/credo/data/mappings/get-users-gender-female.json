@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/users",
+    "queryParameters": {
+      "gender": { "equalTo": "female" }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      { "id": 1, "name": "Alice", "age": 30, "gender": "female" }
+    ],
+    "headers": { "Content-Type": "application/json" }
+  }
+}
